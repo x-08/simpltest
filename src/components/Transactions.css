@@ -1,0 +1,10 @@
+.transactions{
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+
+.head{
+    height: 20%;
+    border-bottom: 1px solid #E0E0E0;
+}

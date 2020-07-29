@@ -1,0 +1,18 @@
+.merchants{
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+
+.head{
+    height: 20%;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.merchants-container{
+    display: grid;
+    grid-template-columns: repeat(10, [col] 3fr);
+    grid-column-gap: 50px;
+    overflow: scroll;
+    margin-left: 20px;
+}

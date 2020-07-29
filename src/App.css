@@ -1,0 +1,16 @@
+.container{
+  background-color: #E5E5E5;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  justify-content: center;
+  /* grid-template-rows: 3fr 2fr 1fr 3fr 1fr; */
+  grid-template-rows: 357px 202px 142px 186px 72px;
+  gap: 10px;
+}
+
+.section{
+  width: 800px;
+  color: black;
+};
+

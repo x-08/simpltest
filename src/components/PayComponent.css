@@ -1,0 +1,107 @@
+.pay-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:5px;
+    color: black;
+    grid-row-gap: 10px;
+}
+
+
+.square-pay{
+    width: 292px;
+    height: 212px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+.head-container{
+  display: grid;
+  grid-template-columns:  1fr 1fr;
+  grid-column-gap: 10px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+
+.bills{
+  border-radius: 1px;
+  margin-right: 10px;
+}
+
+.bills .text{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+letter-spacing: 0.5px;
+
+/* Accent/Red */
+
+color: black;
+
+background: #E33F37;
+border-radius: 2px;
+}
+
+.spent{
+    margin-left: 10px;
+    font-style: normal;
+  font-weight: bold;
+  font-family: Roboto;
+}
+
+.spent .text{
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+letter-spacing: 0.2px;
+text-transform: uppercase;
+
+color: #888888;
+}
+
+.spent .amount{
+font-family: Roboto;
+font-size: 18px;
+line-height: 28px;
+}
+
+.spent-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 80px;
+}
+
+.spent .date{
+    
+    font-size: 15px;
+    line-height: 28px;
+}
+
+.pay-bill-container{
+width: 244px;
+height: 50px;
+left: 40px;
+top: 255px;
+
+background: linear-gradient(90deg, #00D1C1 0%, #00D1DC 100%);
+border-radius: 4px;
+margin-left: 15px;
+}
+
+.pay-bill-container .content{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.pay-bill-container .text{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+}

@@ -1,0 +1,16 @@
+.square{
+    height: 75px;
+    width: 75px;
+}
+
+.square .text{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+
+/* Grey/4 */
+
+color: #888888;
+}

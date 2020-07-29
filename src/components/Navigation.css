@@ -1,0 +1,13 @@
+.navigation{
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;;
+}
+
+.navigation-container{
+    display: grid;
+    grid-template-columns: repeat(5, [col] 1fr);
+    grid-column-gap: 30px;
+    margin-left: 20px;
+}
